@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/grupo_logado">
+        <item
+            android:id="@+id/menu_anuncios"
+            android:title="Meus anúncios"/>
+        <item
+            android:id="@+id/menu_sair"
+            android:title="Sair"/>
+
+    </group>
+
+    <group
+        android:id="@+id/grupo_deslogado">
+
+        <item android:id="@+id/menu_cadastro"
+            android:title="Cadastrar/Logar"
+            app:showAsAction="always"/>
+
+    </group>
+
+
+
+</menu>
